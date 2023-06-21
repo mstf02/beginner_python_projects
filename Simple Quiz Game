@@ -1,4 +1,5 @@
 # ___________________
+
 def new_game():
     guesses = []
     correct_guesses = 0
@@ -32,6 +33,7 @@ def check_answer(answer, guess):
 
 
 # ___________________
+
 def display_score(correct_guesses, guesses):
     print("___________________")
     print("RESULTS")
@@ -52,6 +54,7 @@ def display_score(correct_guesses, guesses):
 
 
 # ___________________
+
 def play_again():
     response = input("Do you want to play again? (yes/no): ").upper()
     if response == "YES":
